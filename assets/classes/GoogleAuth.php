@@ -9,9 +9,9 @@
 		function __construct()
 		{
 			$this->client = new Google_Client();
-			$this->client->setClientId('574911392646-bjadbu94vplvlugscp9rduaar91f7f2e.apps.googleusercontent.com');
-			$this->client->setClientSecret('83PljelsNHet31sCMaQLb_2x');
-			$this->client->setRedirectUri('http://localhost/paaysay/new/index.php');
+			$this->client->setClientId('enter your client id with enabled tasks api');
+			$this->client->setClientSecret('enter client secret');
+			$this->client->setRedirectUri('enter your redirect uri');
 			$this->client->setScopes('https://www.googleapis.com/auth/tasks.readonly https://www.googleapis.com/auth/tasks');
 		}
 
