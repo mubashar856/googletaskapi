@@ -9,11 +9,8 @@
 		function __construct()
 		{
 			$this->client = new Google_Client();
-			$this->client->setClientId('574911392646-bjadbu94vplvlugscp9rduaar91f7f2e.apps.googleusercontent.com');
-			$this->client->setClientSecret('83PljelsNHet31sCMaQLb_2x');
-			//in redirect uri please enter your redirect uri where page will redirect after login
-			//In my case I directed it to http://localhost/paaysay/googletaskapi/index.php
-			// you have to change this according to where you place these files
+			$this->client->setClientId('574911392646-c44gmi7md1lo4l0ec1efj0iv9lajs1q3.apps.googleusercontent.com');
+			$this->client->setClientSecret('c0_fy_D6KS2OLqya7EsdjzVr');
 			$this->client->setRedirectUri('http://offlinetest.dev/index.php');
 			$this->client->setScopes('https://www.googleapis.com/auth/tasks.readonly https://www.googleapis.com/auth/tasks');
 		}
