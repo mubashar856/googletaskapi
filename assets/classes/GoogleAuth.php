@@ -14,7 +14,7 @@
 			//in redirect uri please enter your redirect uri where page will redirect after login
 			//In my case I directed it to http://localhost/paaysay/googletaskapi/index.php
 			// you have to change this according to where you place these files
-			$this->client->setRedirectUri('http://localhost/paaysay/googletaskapi/index.php');
+			$this->client->setRedirectUri('http://offlinetest.dev/index.php');
 			$this->client->setScopes('https://www.googleapis.com/auth/tasks.readonly https://www.googleapis.com/auth/tasks');
 		}
 
